@@ -20,25 +20,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","version":"8.6.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="简单的方式—使用operator格式: 123456返回类型 operator运算符(参数)&amp;#123;    &#x2F;&#x2F;do something    return 返回值;    &#x2F;&#x2F;do something&amp;#125; 举个栗子: 重载”+”计算时间 123456789101112131415161718192021222324252627282930#include &lt;iostream&amp;g">
 <meta property="og:type" content="article">
-<meta property="og:title" content="My New Post">
-<meta property="og:url" content="http://example.com/2021/07/19/My-New-Post/index.html">
+<meta property="og:title" content="C++ 运算符重载">
+<meta property="og:url" content="http://example.com/2020/08/13/c++-operator-overload/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="简单的方式—使用operator格式: 123456返回类型 operator运算符(参数)&amp;#123;    &#x2F;&#x2F;do something    return 返回值;    &#x2F;&#x2F;do something&amp;#125; 举个栗子: 重载”+”计算时间 123456789101112131415161718192021222324252627282930#include &lt;iostream&amp;g">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-07-18T17:11:27.000Z">
-<meta property="article:modified_time" content="2021-07-19T01:13:56.543Z">
+<meta property="article:published_time" content="2020-08-13T14:17:36.000Z">
+<meta property="article:modified_time" content="2020-08-14T14:42:06.000Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="OI">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/2021/07/19/My-New-Post/">
+<link rel="canonical" href="http://example.com/2020/08/13/c++-operator-overload/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2021/07/19/My-New-Post/","path":"2021/07/19/My-New-Post/","title":"My New Post"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2020/08/13/c++-operator-overload/","path":"2020/08/13/c++-operator-overload/","title":"C++ 运算符重载"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>My New Post | Hexo</title>
+<title>C++ 运算符重载 | Hexo</title>
   
 
 
@@ -92,7 +95,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -105,6 +108,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E5%BC%8F%E2%80%94%E4%BD%BF%E7%94%A8operator"><span class="nav-number">1.</span> <span class="nav-text">简单的方式—使用operator</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -163,7 +167,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/19/My-New-Post/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/08/13/c++-operator-overload/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -176,7 +180,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          My New Post
+          C++ 运算符重载
         </h1>
 
         <div class="post-meta-container">
@@ -186,10 +190,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2021-07-19 01:11:27 / Modified: 09:13:56" itemprop="dateCreated datePublished" datetime="2021-07-19T01:11:27+08:00">2021-07-19</time>
+      <time title="Created: 2020-08-13 22:17:36" itemprop="dateCreated datePublished" datetime="2020-08-13T22:17:36+08:00">2020-08-13</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2020-08-14 22:42:06" itemprop="dateModified" datetime="2020-08-14T22:42:06+08:00">2020-08-14</time>
+      </span>
 
   
 </div>
@@ -201,8 +211,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <iframe src="https://www.geogebra.org/geometry/q2g4uzmr?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
-
+        <h1 id="简单的方式—使用operator"><a href="#简单的方式—使用operator" class="headerlink" title="简单的方式—使用operator"></a>简单的方式—使用operator</h1><p><strong>格式:</strong></p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">返回类型 <span class="keyword">operator</span>运算符(参数)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">    <span class="keyword">return</span> 返回值;</span><br><span class="line">    <span class="comment">//do something</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>举个栗子:</strong> 重载”+”计算时间</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Time</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">	<span class="keyword">int</span> minute, hour;</span><br><span class="line">&#125; x, y;</span><br><span class="line"></span><br><span class="line">Time <span class="keyword">operator</span>+(Time a, Time b)</span><br><span class="line">&#123;</span><br><span class="line">	Time c;</span><br><span class="line">	c.minute = a.minute + b.minute;</span><br><span class="line">	c.hour = a.hour + b.hour;</span><br><span class="line">	<span class="keyword">while</span> (c.minute &gt;= <span class="number">60</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		c.hour += c.minute / <span class="number">60</span>;</span><br><span class="line">		c.minute %= <span class="number">60</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> c;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cin &gt;&gt; x.hour &gt;&gt; x.minute;</span><br><span class="line">	cin &gt;&gt; y.hour &gt;&gt; y.minute;</span><br><span class="line">	Time z;</span><br><span class="line">	z = x + y;</span><br><span class="line">	cout &lt;&lt; z.hour &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; z.minute;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -210,16 +222,22 @@
     
 
     <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/OI/" rel="tag"># OI</a>
+          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/07/19/hello-world/" rel="prev" title="Hello World">
-                  <i class="fa fa-chevron-left"></i> Hello World
+                <a href="/2020/08/09/oj/" rel="prev" title="OJ">
+                  <i class="fa fa-chevron-left"></i> OJ
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2020/08/15/jzqp/" rel="next" title="矩阵快速幂">
+                  矩阵快速幂 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
