@@ -250,7 +250,7 @@ M347 1759 V0 H263 V1759 v0 v1759 h84z"/></svg></span></span></span><span class="
     if(!countELement) return
     twikoo.getCommentsCount({
       envId: 'https://lively-sopapillas-43bece.netlify.app/.netlify/functions/twikoo',
-      region: 'ap-sichuan',
+      region: '',
       urls: [window.location.pathname],
       includeReply: false
     }).then(res => {
@@ -264,7 +264,7 @@ M347 1759 V0 H263 V1759 v0 v1759 h84z"/></svg></span></span></span><span class="
     twikoo.init({
       el: el.querySelector('#twikoo-wrap'),
       envId: 'https://lively-sopapillas-43bece.netlify.app/.netlify/functions/twikoo',
-      region: 'ap-sichuan',
+      region: '',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
       },

@@ -565,7 +565,7 @@ THE NEW GUIDE OF CHEATING IN INFORMATICS OLYMPIAD<br>
     if(!countELement) return
     twikoo.getCommentsCount({
       envId: 'https://lively-sopapillas-43bece.netlify.app/.netlify/functions/twikoo',
-      region: 'ap-sichuan',
+      region: '',
       urls: [window.location.pathname],
       includeReply: false
     }).then(res => {
@@ -579,7 +579,7 @@ THE NEW GUIDE OF CHEATING IN INFORMATICS OLYMPIAD<br>
     twikoo.init({
       el: el.querySelector('#twikoo-wrap'),
       envId: 'https://lively-sopapillas-43bece.netlify.app/.netlify/functions/twikoo',
-      region: 'ap-sichuan',
+      region: '',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
       },
