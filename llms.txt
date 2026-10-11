@@ -1,0 +1,23 @@
+﻿# azusaaa
+> 算法竞赛与工程的个人记录：XCPC 题解、算法笔记、比赛复盘，以及一些折腾工具链的笔记。
+
+## Key Pages
+- [主页](https://azusaaa.com/)
+- [归档](https://azusaaa.com/archive/)
+- [关于我](https://azusaaa.com/about/)
+- [友链](https://azusaaa.com/friends/): 这里是我的朋友们，欢迎互相访问交流
+- [留言](https://azusaaa.com/guestbook/): 欢迎在这里留下你的足迹，分享你的想法和建议
+- [动态](https://azusaaa.com/dynamic/): 随手记下此刻的想法与日常。
+- [项目](https://azusaaa.com/projects/): 这里展示我开发过的项目
+- [相册](https://azusaaa.com/gallery/): 记录生活中的美好瞬间
+- [书签导航](https://azusaaa.com/booknav/): 收藏一些好用的网站，按分类整理
+- [打赏](https://azusaaa.com/sponsor/): 如果我的内容对你有帮助，欢迎通过以下方式打赏我，你的支持是我持续创作的动力！
+
+## Recent Posts
+- [第二十四届电子科技大学 ACM-ICPC 程序设计竞赛 初赛游记](https://azusaaa.com/posts/uestc-acm-icpc-24th-preliminary/): 第一次校赛qwq
+- [Problems & Errors](https://azusaaa.com/posts/problems-and-errors/): 错题集（大概）
+- [Hexo 博客搭建教程](https://azusaaa.com/posts/hexo-blog-tutorial/): 从零开始的个人博客搭建！
+- [[转]骗分导论](https://azusaaa.com/posts/pian-fen-dao-lun/): 新 版 骗 分 导 论
+- [矩阵快速幂](https://azusaaa.com/posts/matrix-quick-power/): 矩阵快速幂笔记
+- [C++ 运算符重载](https://azusaaa.com/posts/cpp-operator-overload/): 运算符重载笔记
+- [[转]背包九讲](https://azusaaa.com/posts/backpack-nine-lectures/): 背包问题九讲
