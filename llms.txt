@@ -11,6 +11,7 @@
 - [项目](https://azusaaa.com/projects/): 这里展示我开发过的项目
 - [相册](https://azusaaa.com/gallery/): 记录生活中的美好瞬间
 - [书签导航](https://azusaaa.com/booknav/): 收藏一些好用的网站，按分类整理
+- [番组计划](https://azusaaa.com/bangumi/): 记录我的二次元之旅
 - [打赏](https://azusaaa.com/sponsor/): 如果我的内容对你有帮助，欢迎通过以下方式打赏我，你的支持是我持续创作的动力！
 
 ## Recent Posts
