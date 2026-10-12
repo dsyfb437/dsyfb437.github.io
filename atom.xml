@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://azusaaa.com/</id>
   <title type="text">azusaaa</title>
-  <subtitle type="text">算法竞赛与工程的个人记录：XCPC 题解、算法笔记、比赛复盘，以及一些折腾工具链的笔记。</subtitle>
+  <subtitle type="text">一些乱七八糟的笔记</subtitle>
   <updated>2026-03-28T14:18:59.000Z</updated>
-  <author><name>azusaaa</name></author>
+  <author><name>dsyfb_437</name></author>
   <link rel="alternate" href="https://azusaaa.com/"/>
   <link rel="self" href="https://azusaaa.com/atom.xml"/>
   <generator uri="https://github.com/CuteLeaf/Firefly">Firefly v6.16.8</generator>
@@ -13,7 +13,7 @@
       <title type="text">第二十四届电子科技大学 ACM-ICPC 程序设计竞赛 初赛游记</title>
       <published>2026-03-28T14:18:59.000Z</published>
       <updated>2026-03-28T14:18:59.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/uestc-acm-icpc-24th-preliminary/"/>
       <summary type="text">第一次校赛qwq</summary>
       <content type="html"><![CDATA[<p></p><figure><img alt="最终结果" loading="lazy" width="2531" height="185" src="/_astro/24th-pre-final_results.DKzObb3A_Z2aU47v.webp" /><figcaption>最终结果</figcaption></figure><p></p>
@@ -39,7 +39,7 @@ J 是个最短路重叠问题。然后 A 也看了一眼。然后文件建好了
       <title type="text">Problems &amp; Errors</title>
       <published>2026-03-11T10:06:18.000Z</published>
       <updated>2026-03-11T10:06:18.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/problems-and-errors/"/>
       <summary type="text">错题集（大概）</summary>
       <content type="html"><![CDATA[<p>做题记录（nt错误）合集</p>
@@ -303,7 +303,7 @@ ASCII码只有128个。 。</p>
       <title type="text">Hexo 博客搭建教程</title>
       <published>2026-02-18T14:51:27.000Z</published>
       <updated>2026-02-18T14:51:27.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/hexo-blog-tutorial/"/>
       <summary type="text">从零开始的个人博客搭建！</summary>
       <content type="html"><![CDATA[<section><h2>前言<a href="#前言"><span>#</span></a></h2><p>这个博客起源于2020年暑假发现的 <a href="https://open.gridea.dev/" target="_blank">Gridea</a> ，然后这个其实当时也是比较新的软件（RT</p><p></p><figure><img src="https://open.gridea.dev/media/images/gridea.jpg" alt="Gridea官网的图" /><figcaption>Gridea官网的图</figcaption></figure><p></p><p>然后部署了一个基于 Gridea + Github Page 的博客（也是现在这个网址）</p><p>好处就是有客户端，但是主题太少自由度不高，后来就放弃 Gridea 转向 <a href="https://hexo.io/zh-cn/" target="_blank">Hexo</a> 了。（其实也是因为自己很久没维护了）</p><p>虽然同样是静态博客生成器，也是 Github Page 部署，Hexo的社区生态可能就要丰富一些qwq</p><p></p><figure><img alt="Hexo官网截图" loading="lazy" width="2528" height="3593" src="/_astro/hexo-blog-image.DKwvGLtr_f6P3i.webp" /><figcaption>Hexo官网截图</figcaption></figure><p></p></section>
@@ -418,7 +418,7 @@ ASCII码只有128个。 。</p>
       <title type="text">[转]骗分导论</title>
       <published>2020-08-22T12:10:56.000Z</published>
       <updated>2020-08-22T12:10:56.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/pian-fen-dao-lun/"/>
       <summary type="text">新 版 骗 分 导 论</summary>
       <content type="html"><![CDATA[<p>新 版 骗 分 导 论
@@ -440,7 +440,7 @@ THE NEW GUIDE OF CHEATING IN INFORMATICS OLYMPIAD
       <title type="text">矩阵快速幂</title>
       <published>2020-08-15T06:22:11.000Z</published>
       <updated>2020-08-15T06:22:11.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/matrix-quick-power/"/>
       <summary type="text">矩阵快速幂笔记</summary>
       <content type="html"><![CDATA[<section><h3>快速幂<a href="#快速幂"><span>#</span></a></h3><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>int</span><span> </span><span>qp</span><span>(</span><span>int</span><span><span> </span><span>a</span><span>, </span></span><span>int</span><span><span> </span><span>b</span><span>) {</span></span><span>          //quick_power</span></div></div><div><div><div>2</div></div><div><span>  </span><span>int</span><span> </span><span>ans</span><span> </span><span>=</span><span> </span><span>1</span><span>;</span></div></div><div><div><div>3</div></div><div><span>  </span><span>for</span><span> (; </span><span>b</span><span>; </span><span>b</span><span> </span><span>&gt;&gt;=</span><span> </span><span>1</span><span>) {</span></div></div><div><div><div>4</div></div><div><span>    </span><span>if</span><span> (</span><span>b</span><span> </span><span>&amp;</span><span> </span><span>1</span><span>) </span><span>ans</span><span> </span><span>=</span><span> (</span><span>long</span><span> </span><span>long</span><span>)</span><span>ans</span><span> </span><span>*</span><span> </span><span>a</span><span>;</span></div></div><div><div><div>5</div></div><div><span>    </span><span>a</span><span> </span><span>=</span><span> (</span><span>long</span><span> </span><span>long</span><span>)</span><span>a</span><span> </span><span>*</span><span> </span><span>a</span><span>;</span></div></div><div><div><div>6</div></div><div><span><span>  </span></span><span>}</span></div></div><div><div><div>7</div></div><div><span>  </span><span>return</span><span> </span><span>ans</span><span>;</span></div></div><div><div><div>8</div></div><div><span>}</span></div></div></code></pre><div><div></div><div></div></div></figure></div></section>
@@ -455,7 +455,7 @@ THE NEW GUIDE OF CHEATING IN INFORMATICS OLYMPIAD
       <title type="text">C++ 运算符重载</title>
       <published>2020-08-13T14:17:36.000Z</published>
       <updated>2020-08-13T14:17:36.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/cpp-operator-overload/"/>
       <summary type="text">运算符重载笔记</summary>
       <content type="html"><![CDATA[<section><h1>简单的方式—使用 operator<a href="#简单的方式使用-operator"><span>#</span></a></h1><p><strong>格式:</strong></p><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>返回类型 operator运算符(参数)</span></div></div><div><div><div>2</div></div><div><span>{</span></div></div><div><div><div>3</div></div><div><span><span>    </span></span><span>//do something</span></div></div><div><div><div>4</div></div><div><span>    </span><span>return</span><span> 返回值;</span></div></div><div><div><div>5</div></div><div><span><span>    </span></span><span>//do something</span></div></div><div><div><div>6</div></div><div><span>}</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p><strong>举个栗子:</strong> 重载”+“计算时间</p><div><div><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>#include</span><span> </span><span>&lt;iostream&gt;</span></div></div><div><div><div>2</div></div><div><span>using</span><span> </span><span>namespace</span><span><span> </span><span>std</span><span>;</span></span></div></div><div><div><div>3</div></div><div>
@@ -468,7 +468,7 @@ THE NEW GUIDE OF CHEATING IN INFORMATICS OLYMPIAD
       <title type="text">[转]背包九讲</title>
       <published>2020-08-05T03:17:23.000Z</published>
       <updated>2020-08-05T03:17:23.000Z</updated>
-      <author><name>azusaaa</name></author>
+      <author><name>dsyfb_437</name></author>
       <link rel="alternate" href="https://azusaaa.com/posts/backpack-nine-lectures/"/>
       <summary type="text">背包问题九讲</summary>
       <content type="html"><![CDATA[<blockquote><p>原文出处：<a href="http://love-oriented.com/pack" target="_blank">http://love-oriented.com/pack</a></p></blockquote>
