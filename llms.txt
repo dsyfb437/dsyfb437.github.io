@@ -16,9 +16,3 @@
 
 ## Recent Posts
 - [第二十四届电子科技大学 ACM-ICPC 程序设计竞赛 初赛游记](https://azusaaa.com/posts/uestc-acm-icpc-24th-preliminary/): 第一次校赛qwq
-- [Problems & Errors](https://azusaaa.com/posts/problems-and-errors/): 错题集（大概）
-- [Hexo 博客搭建教程](https://azusaaa.com/posts/hexo-blog-tutorial/): 从零开始的个人博客搭建！
-- [[转]骗分导论](https://azusaaa.com/posts/pian-fen-dao-lun/): 新 版 骗 分 导 论
-- [矩阵快速幂](https://azusaaa.com/posts/matrix-quick-power/): 矩阵快速幂笔记
-- [C++ 运算符重载](https://azusaaa.com/posts/cpp-operator-overload/): 运算符重载笔记
-- [[转]背包九讲](https://azusaaa.com/posts/backpack-nine-lectures/): 背包问题九讲
