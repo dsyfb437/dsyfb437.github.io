@@ -3,11 +3,27 @@
   <id>https://azusaaa.com/</id>
   <title type="text">azusaaa</title>
   <subtitle type="text">一些乱七八糟的笔记</subtitle>
-  <updated>2026-03-28T14:18:59.000Z</updated>
+  <updated>2026-10-19T10:08:49.000Z</updated>
   <author><name>dsyfb_437</name></author>
   <link rel="alternate" href="https://azusaaa.com/"/>
   <link rel="self" href="https://azusaaa.com/atom.xml"/>
   <generator uri="https://github.com/CuteLeaf/Firefly">Firefly v6.16.8</generator>
+    <entry>
+      <id>https://azusaaa.com/posts/2026-ccpc-changchun/</id>
+      <title type="text">2026 CCPC 长春 游记</title>
+      <published>2026-10-19T10:08:49.000Z</published>
+      <updated>2026-10-19T10:08:49.000Z</updated>
+      <author><name>dsyfb_437</name></author>
+      <link rel="alternate" href="https://azusaaa.com/posts/2026-ccpc-changchun/"/>
+      <summary type="text">第一次ccpc qwq</summary>
+      <content type="html"><![CDATA[<p>怎么只会写这种雷同的游记</p>
+<p>日落时分出发，em，忽然就是想写点东西了qwq</p>
+<p>毕竟第一次ccpc啦</p>
+<section><h2>Day ?<a href="https://azusaaa.com/#day-"><span>#</span></a></h2><p>本来THU出题有点吓哭的，不过和集训队协商下来打长春可以保1个ic，于是就来了</p><p>结果后面还知道是新榜单模式，于是基本把训练重心放在准备ic上了（</p></section>
+<section><h2>Day 0<a href="https://azusaaa.com/#day-0"><span>#</span></a></h2><p>第一次坐飞机…</p><p>飞机上一直在打喵赛克（</p><p>总之就是长春好冷哇</p><p>到酒店耍到3点</p></section>
+<section><h2>Day 1<a href="https://azusaaa.com/#day-1"><span>#</span></a></h2><p>有㊗️11点起来和队友去签到，</p><p>领了三件不算好看的灰色卫衣，然后就没有别的伴手礼了，可惜</p><p>品鉴一下东北师范的食堂，队友评价不如学子，我其实感觉还行（？），后来也没有再去吃过</p><p>现场有一个比较小的米哈游抽奖活动，据说是1/10中奖概率，三个人只有队长中奖了，喜提一份周边</p><p>然后进行神秘热身赛，开幕式不知道在干什么，一直在延迟</p><p>现场的VSCode竟然配了cph，非常震惊，</p><p>然后Ubuntu的GUI也是深得我心，也想放弃windows，给自己电脑上linux了（</p><p>不过这个ccpcoj实在是非常诡异，交一题要10min，测一题要30min，似乎见到某群有人对测评机时间流速和选手机时间流速比较，应用相对论，得出测评机以80%+光速绕地球旋转（</p><p>还有一些小问题比如就是似乎赛时可以通过修改队伍id查看其他队伍的交题情况（这样新榜单就失效了ww）</p><p>总之oj问题似乎热身赛后都修好了</p><p>还有就是题目，A题真的好难，所有人都是一眼ccpc但并不对</p><p>等队友做完BC，想完D才发现oj上A题题面下面还有一个<code>hint.py</code></p><p>打开发现竟然是凯撒加密的5条hint</p><p>正好最近在学一点mmx，然后花了很长时间理解是题面的四个加点字 <code>秘密</code> 垂直对到标题上的对应字母拼起来</p><p>哇，竟然是<code>love</code>❤️，出题人小巧思，，这个dapingguo</p><p>热身赛快结束才AK，热身赛银了（</p><p>出门尝试了东北烧烤，www</p><p>回到酒店已经九点了ww，发现还有个算子赛可以打，拿dsh跑了几轮，最后还是只有28名的样子，惜败astra选手（</p><p>早早睡了</p></section>
+<section><h2>Day 2<a href="https://azusaaa.com/#day-2"><span>#</span></a></h2><p>正式赛日</p><p>随便在kfc吃了点早饭，前往赛场</p><p>9点开赛qwq</p><p>新赛制榜单确实很神秘，开赛半个小时没能找到一道签到题，基本上就是解榜一道我们做一道</p><p>签完ACJ，看了看I，K，结果到最后都是差一点啊awa</p><p>M解榜之前一直没发现这玩意可做，解了以后发现是个简单题（</p><p>封榜前四题，dirt率为0，但都非常慢…</p><p>4小时解榜发现E，G都是40+队，这个50队解榜的限制似乎有点过于巧妙了</p><p>封榜后同时在开E，I，K，结果最后都没凑出来，E也是差一点（</p><p>封榜前120多算是铜比较靠前的位置，打算开一两题出来冲一下银的，可惜了</p><p>午饭麦好评</p><p>最后rank146，铜了</p><p>其实感觉是不太满意的，理论上应该做的更快一些，然后能多做出来个2题至少吧（</p><p>果然还是太依赖榜单了，自己开题的能力不足捏</p><p>赛后似乎发现隔壁西安有点爆（</p><p>长春似乎算是符合预期（？），和俊杰的前瞻偏差不算很大</p><p>南京加油捏</p></section>]]></content>
+    </entry>
     <entry>
       <id>https://azusaaa.com/posts/uestc-acm-icpc-24th-preliminary/</id>
       <title type="text">第二十四届电子科技大学 ACM-ICPC 程序设计竞赛 初赛游记</title>
