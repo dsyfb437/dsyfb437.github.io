@@ -3,11 +3,25 @@
   <id>https://azusaaa.com/</id>
   <title type="text">azusaaa</title>
   <subtitle type="text">一些乱七八糟的笔记</subtitle>
-  <updated>2026-10-19T10:08:49.000Z</updated>
+  <updated>2026-10-28T00:00:00.000Z</updated>
   <author><name>dsyfb_437</name></author>
   <link rel="alternate" href="https://azusaaa.com/"/>
   <link rel="self" href="https://azusaaa.com/atom.xml"/>
   <generator uri="https://github.com/CuteLeaf/Firefly">Firefly v6.16.8</generator>
+    <entry>
+      <id>https://azusaaa.com/posts/post-20261028-472cefd5/</id>
+      <title type="text">Gridea Plus 测试</title>
+      <published>2026-10-28T00:00:00.000Z</published>
+      <updated>2026-10-28T00:00:00.000Z</updated>
+      <author><name>dsyfb_437</name></author>
+      <link rel="alternate" href="https://azusaaa.com/posts/post-20261028-472cefd5/"/>
+      <summary type="text">testtt</summary>
+      <content type="html"><![CDATA[<p>许愿式编程的产物ww</p>
+<span>bandage测试</span>
+<div><ol><li><span></span><div><div>第一步</div><div>从这里开始。</div></div></li><li><span></span><div><div>第二步</div><div>然后继续。</div></div></li></ol></div>
+<div><div><div></div><div><div>一个想法</div></div><div>写下一点进展。</div><div>卡片内容</div></div><div><div></div><div><div>新卡片</div></div><div>补充说明</div><div><p>内容</p></div></div></div>
+<div><div>JavaScriptPython</div> <div><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span><span>console</span><span>.</span></span><span>log</span><span>(</span><span>"hello"</span><span>);</span></div></div></code></pre><div><div></div><div></div></div></figure></div><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>print</span><span>(</span><span>"hello"</span><span>)</span></div></div></code></pre><div><div></div><div></div></div></figure></div></div></div>]]></content>
+    </entry>
     <entry>
       <id>https://azusaaa.com/posts/2026-ccpc-changchun/</id>
       <title type="text">2026 CCPC 长春 游记</title>
