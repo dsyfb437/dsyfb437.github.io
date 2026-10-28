@@ -15,6 +15,6 @@
 - [打赏](https://azusaaa.com/sponsor/): 如果我的内容对你有帮助，欢迎通过以下方式打赏我，你的支持是我持续创作的动力！
 
 ## Recent Posts
-- [Gridea Plus 测试](https://azusaaa.com/posts/post-20261028-472cefd5/): testtt
 - [2026 CCPC 长春 游记](https://azusaaa.com/posts/2026-ccpc-changchun/): 第一次ccpc qwq
 - [第二十四届电子科技大学 ACM-ICPC 程序设计竞赛 初赛游记](https://azusaaa.com/posts/uestc-acm-icpc-24th-preliminary/): 第一次校赛qwq
+- [Hexo 博客搭建教程](https://azusaaa.com/posts/hexo-blog-tutorial/): 从零开始的个人博客搭建！
