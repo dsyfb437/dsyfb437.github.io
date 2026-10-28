@@ -4,7 +4,7 @@
 ## Key Pages
 - [主页](https://azusaaa.com/)
 - [归档](https://azusaaa.com/archive/)
-- [关于我](https://azusaaa.com/about/)
+- [关于](https://azusaaa.com/about/)
 - [友链](https://azusaaa.com/friends/): 这里是我的朋友们，欢迎互相访问交流
 - [留言](https://azusaaa.com/guestbook/): 欢迎在这里留下你的足迹，分享你的想法和建议
 - [动态](https://azusaaa.com/dynamic/): 随手记下此刻的想法与日常。
