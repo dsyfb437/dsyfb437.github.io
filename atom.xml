@@ -3,25 +3,11 @@
   <id>https://azusaaa.com/</id>
   <title type="text">azusaaa</title>
   <subtitle type="text">一些乱七八糟的笔记</subtitle>
-  <updated>2026-10-28T00:00:00.000Z</updated>
+  <updated>2026-10-19T10:08:49.000Z</updated>
   <author><name>dsyfb_437</name></author>
   <link rel="alternate" href="https://azusaaa.com/"/>
   <link rel="self" href="https://azusaaa.com/atom.xml"/>
   <generator uri="https://github.com/CuteLeaf/Firefly">Firefly v6.16.8</generator>
-    <entry>
-      <id>https://azusaaa.com/posts/post-20261028-472cefd5/</id>
-      <title type="text">Gridea Plus 测试</title>
-      <published>2026-10-28T00:00:00.000Z</published>
-      <updated>2026-10-28T00:00:00.000Z</updated>
-      <author><name>dsyfb_437</name></author>
-      <link rel="alternate" href="https://azusaaa.com/posts/post-20261028-472cefd5/"/>
-      <summary type="text">testtt</summary>
-      <content type="html"><![CDATA[<p>许愿式编程的产物ww</p>
-<span>bandage测试</span>
-<div><ol><li><span></span><div><div>第一步</div><div>从这里开始。</div></div></li><li><span></span><div><div>第二步</div><div>然后继续。</div></div></li></ol></div>
-<div><div><div></div><div><div>一个想法</div></div><div>写下一点进展。</div><div>卡片内容</div></div><div><div></div><div><div>新卡片</div></div><div>补充说明</div><div><p>内容</p></div></div></div>
-<div><div>JavaScriptPython</div> <div><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span><span>console</span><span>.</span></span><span>log</span><span>(</span><span>"hello"</span><span>);</span></div></div></code></pre><div><div></div><div></div></div></figure></div><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>print</span><span>(</span><span>"hello"</span><span>)</span></div></div></code></pre><div><div></div><div></div></div></figure></div></div></div>]]></content>
-    </entry>
     <entry>
       <id>https://azusaaa.com/posts/2026-ccpc-changchun/</id>
       <title type="text">2026 CCPC 长春 游记</title>
@@ -63,5 +49,121 @@
 J 是个最短路重叠问题。然后 A 也看了一眼。然后文件建好了半天没进展，于是开 J 。找了个 dijkstra 板子，记录路径，然后模拟。</p><p><code>16:42</code> 交一发，不出所料 TLE（但是没有WA，虽说纯模拟也不太会有错）</p><p><code>1.2h</code> 然后就是乱调 J 题，找各种优化。把 dijkstra 范围改小，改成最短路两点之间（想来确实不行，可能会绕一下松弛），然后在 <code>16:44</code> WA ；换了一个堆优化的板子，又交一遍 <code>17:06</code> TLE ；不信邪，又改一遍遍历范围，竟然是 TLE (<code>17:14</code>)。反正虽说算复杂度已经 <span><span><span><span></span><span>1</span><span>e</span><span>11</span></span></span></span> 就是爆了，但还是试图 dijkstra 卡过去。。。</p><p>最终还是翻到树上最短路可以用求 LCA ，然后也是没有了解细节就直接拿了 LCA 板子，结果是样例都没过（要是过了又是一发不明所以的 WA），后来改名白了又发现样例 <span><span><span><span></span><span>107</span><span>m</span><span>s</span></span></span></span> ，把 memset 去掉了，交题，<code>18:02</code> AC，至此算是已经过了 7 题，rank 53 。赛后知道这题其实纯暴力，然后很多人用树链剖分做？</p><p>然而 acm 群里的管理有预测 8 题线的（去年 4 题），决定还是继续比赛，室友已经准备吃饭去了。</p></section>
 <section><h2>E<a href="https://azusaaa.com/#e"><span>#</span></a></h2><p><code>1h</code> 开始看 E ，先是写了个贪心（问过了还是试一试），交了一发 RE(<code>18:43</code>)，竟然是读入前 <code>continue</code> 吗，改了当然还是 WA (<code>18:52</code>)，最终 E 也是没过</p></section>
 <section><h2>O<a href="https://azusaaa.com/#o"><span>#</span></a></h2><p><code>19:10</code> 吃饭。</p><p><code>1h</code> 发现 O 是个打表题（呃，反正就是 <span><span><span><span></span><span>1</span></span></span></span> 到 <span><span><span><span></span><span>1</span><span>e</span><span>9</span></span></span></span> 质数的子集，然后花大概 30min 打了个表，然后又花大概 30min 写了剩下的输出。</p><p><code>20:12</code> WA</p><p><code>20min</code> 调 20min ，疯狂交题，又吃 3 发 WA（<code>20:18</code> <code>20:21</code> <code>20:26</code>）。然后总结下来就是要注意左端点尽量小，然后比较的时候还有左右端点，标准也要统一。</p><p><code>20:32</code> 终于 AC 了，然后发现已经封榜了，也只剩不到 30min 了。看了 M 其实有思路可以二分那个环，但赛时确实没有时间了。。</p><hr /><p>12h 超长初赛。还是有很多不足吧，感觉考了很多图论的知识都不会（只知道概念不会实现），然后快速幂也只会搬板子。赛时也没有很好的发挥，一直是跟着榜在做题，有些题都没仔细思考。</p><p>应该是能进决赛吧。希望一周后线下能有更好的表现吧。</p></section>]]></content>
+    </entry>
+    <entry>
+      <id>https://azusaaa.com/posts/hexo-blog-tutorial/</id>
+      <title type="text">Hexo 博客搭建教程</title>
+      <published>2026-02-18T14:51:27.000Z</published>
+      <updated>2026-02-18T14:51:27.000Z</updated>
+      <author><name>dsyfb_437</name></author>
+      <link rel="alternate" href="https://azusaaa.com/posts/hexo-blog-tutorial/"/>
+      <summary type="text">从零开始的个人博客搭建！</summary>
+      <content type="html"><![CDATA[<p>upd 2026-10-28 : 现在已经在用 Astro 了，回头看之前写的这个为啥这么羞耻，还是公开了算了（</p>
+<section><h2>前言<a href="https://azusaaa.com/#%E5%89%8D%E8%A8%80"><span>#</span></a></h2><p>这个博客起源于2020年暑假发现的 <a href="https://open.gridea.dev/" target="_blank">Gridea</a> ，然后这个其实当时也是比较新的软件（RT</p><p></p><figure><img src="https://open.gridea.dev/media/images/gridea.jpg" alt="Gridea官网的图" /><figcaption>Gridea官网的图</figcaption></figure><p></p><p>然后部署了一个基于 Gridea + Github Page 的博客（也是现在这个网址）</p><p>好处就是有客户端，但是主题太少自由度不高，后来就放弃 Gridea 转向 <a href="https://hexo.io/zh-cn/" target="_blank">Hexo</a> 了。（其实也是因为自己很久没维护了）</p><p>虽然同样是静态博客生成器，也是 Github Page 部署，Hexo的社区生态可能就要丰富一些qwq</p><p></p><figure><img alt="Hexo官网截图" loading="lazy" width="2528" height="3593" src="https://azusaaa.com/_astro/hexo-blog-image.DKwvGLtr_f6P3i.webp" /><figcaption>Hexo官网截图</figcaption></figure><p></p></section>
+<section><h2>搭建过程<a href="https://azusaaa.com/#%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B"><span>#</span></a></h2><p>其实 <a href="https://hexo.io/zh-cn/docs/" target="_blank">Hexo文档</a> 里就有</p><section><h3>1. 环境准备<a href="https://azusaaa.com/#1-%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span>#</span></a></h3><ul>
+<li>安装 <a href="https://nodejs.org/" target="_blank">Node.js</a></li>
+<li>安装 <a href="https://git-scm.com/" target="_blank">Git</a></li>
+</ul></section><section><h3>2. 安装 Hexo<a href="https://azusaaa.com/#2-%E5%AE%89%E8%A3%85-hexo"><span>#</span></a></h3><p>终端输入</p><div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>npm</span><span> </span><span>install</span><span> </span><span>-g</span><span> </span><span>hexo-cli</span></div></div></code></pre><div><div></div><div></div></div></figure></div></section><section><h3>3. 初始化<a href="https://azusaaa.com/#3-%E5%88%9D%E5%A7%8B%E5%8C%96"><span>#</span></a></h3><div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>hexo</span><span> </span><span>init</span><span> </span><span>my-blog</span></div></div><div><div><div>2</div></div><div><span>cd</span><span> </span><span>my-blog</span></div></div><div><div><div>3</div></div><div><span>npm</span><span> </span><span>install</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p>其中 <code>my-blog</code> 为你的博客文件夹</p><p>这一步做完后你的博客目录大概长这样</p><div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>.</span></div></div><div><div><div>2</div></div><div><span>├── _config.yml   # 网站配置文件</span></div></div><div><div><div>3</div></div><div><span>├── package.json  # 应用程序信息</span></div></div><div><div><div>4</div></div><div><span>├── scaffolds     # 模板文件夹</span></div></div><div><div><div>5</div></div><div><span>├── source        # 资源文件夹</span></div></div><div><div><div>6</div></div><div><span>|   ├── _drafts</span></div></div><div><div><div>7</div></div><div><span>|   └── _posts</span></div></div><div><div><div>8</div></div><div><span>└── themes        # 主题文件夹</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p>此时你在博客目录下打开终端</p><div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>hexo</span><span> </span><span>g</span></div></div><div><div><div>2</div></div><div><span>hexo</span><span> </span><span>s</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p>然后访问 <a href="http://localhost:4000/" target="_blank">http://localhost:4000/</a> 就可以看到你的博客啦</p></section><section><h3>4. 安装主题<a href="https://azusaaa.com/#4-%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98"><span>#</span></a></h3><p>默认主题是 <a href="https://github.com/hexojs/hexo-theme-landscape" target="_blank">landscape</a>，你可以在 <a href="https://hexo.io/themes/" target="_blank">这里</a> 寻找自己喜爱的主题，我目前使用的是 <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank">Butterfly</a>。</p><div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>git</span><span> </span><span>clone</span><span> </span><span>https://github.com/jerryc127/butterfly-theme.git</span><span> </span><span>themes/butterfly</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p>当然也可以直接下载解压后放入<code>theme</code>文件夹，安装完后去 <code>_config.yml</code> 里设置主题。</p></section><section><h3>5. 基础配置<a href="https://azusaaa.com/#5-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE"><span>#</span></a></h3><p>在网站配置文件和主题文件中进行</p><ul>
+<li>_config.yml</li>
+<li>_config.butterfly.yml（这个文件在对应主题文件夹里，建议放到博客根目录，便于主题更新）</li>
+</ul></section></section>
+<section><h2>部署<a href="https://azusaaa.com/#%E9%83%A8%E7%BD%B2"><span>#</span></a></h2><p>我使用的是 GitHub Pages，当然也可以部署到别的平台或者自己的服务器上。</p><p>具体步骤如下</p><ul>
+<li>
+<p>注册 <a href="https://github.com/" target="_blank">Github</a> 账号</p>
+</li>
+<li>
+<p>建立一个名为 <code>你的用户名.github.io</code> 的仓库</p>
+</li>
+<li>
+<p>安装 <a href="https://github.com/hexojs/hexo-deployer-git" target="_blank">hexo-deployer-git</a>：</p>
+<div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>npm</span><span> </span><span>install</span><span> </span><span>hexo-deployer-git</span><span> </span><span>--save</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+</li>
+<li>
+<p>如果你不想提供用户名和密码，可以配置 SSH 进行部署</p>
+<div><div><div></div><div>Warning</div></div><div><p>注意你的 Windows 用户名应不含中文</p></div></div>
+<ul>
+<li>
+<p>修改 <code>_config.yml</code></p>
+<div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>deploy</span><span>:</span></div></div><div><div><div>2</div></div><div><span>type</span><span>: </span><span>git</span></div></div><div><div><div>3</div></div><div><span>repo</span><span>: </span><span>git@github.com:你的用户名/你的用户名.github.io.git</span></div></div><div><div><div>4</div></div><div><span>branch</span><span>: </span><span>main</span></div></div><div><div><div>5</div></div><div><span>url</span><span>: </span><span>https://你的用户名.github.io/</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+</li>
+<li>
+<p>在博客文件夹下右键，Git Bash Here</p>
+<div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>git</span><span> </span><span>config</span><span> </span><span>--global</span><span> </span><span>user.name</span><span> </span><span>"你的GitHub用户名"</span></div></div><div><div><div>2</div></div><div><span>git</span><span> </span><span>config</span><span> </span><span>--global</span><span> </span><span>user.email</span><span> </span><span>"你的GitHub邮箱"</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+</li>
+<li>
+<p>然后生成 SSH 密钥</p>
+<div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>ssh-keygen</span><span> </span><span>-t</span><span> </span><span>rsa</span><span> </span><span>-C</span><span> </span><span>"你的GitHub邮箱"</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+</li>
+<li>
+<p>（可选）添加 SSH 配置文件（似乎是 Github 默认的22端口不能用了要换成443端口？）</p>
+<p>运行以下命令创建配置：</p>
+<div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>touch</span><span> </span><span>~/.ssh/config</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+<p>然后用记事本打开编辑：</p>
+<div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>notepad ~/.ssh/config</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+<p>在打开的文件里粘贴以下内容：</p>
+<div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>Host github.com</span></div></div><div><div><div>2</div></div><div><span>Hostname ssh.github.com</span></div></div><div><div><div>3</div></div><div><span>User git</span></div></div><div><div><div>4</div></div><div><span>Port 443</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+<p>保存并关闭。</p>
+</li>
+<li>
+<p>把公钥添加到 GitHub</p>
+<p>查看公钥内容：</p>
+<div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>cat</span><span> </span><span>~/.ssh/id_rsa.pub</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+<p>复制输出的内容（以 ssh-rsa 开头的那一长串）。</p>
+<p>在 GitHub 上添加：</p>
+<ol>
+<li>打开 <a href="https://github.com/settings/keys" target="_blank">https://github.com/settings/keys</a></li>
+<li>点击 “New SSH key”</li>
+<li>Title 随便填</li>
+<li>Key 粘贴刚才复制的公钥</li>
+<li>点击 “Add SSH key”</li>
+</ol>
+</li>
+<li>
+<p>测试连接</p>
+<div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>ssh</span><span> </span><span>-T</span><span> </span><span>git@github.com</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+<p>成功的话会显示：</p>
+<div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>Hi 你的用户名! You've successfully authenticated, but GitHub does not provide shell access.</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+</li>
+</ul>
+</li>
+<li>
+<p>然后执行</p>
+</li>
+</ul><div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>hexo</span><span> </span><span>clean</span><span>  </span><span># 清除缓存文件和生成的静态文件</span></div></div><div><div><div>2</div></div><div><span>hexo</span><span> </span><span>g</span><span>      </span><span># 生成静态文件</span></div></div><div><div><div>3</div></div><div><span>hexo</span><span> </span><span>d</span><span>      </span><span># 部署</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p>过一会即可在 <code>https://你的用户名.github.io/</code> 上看到你的博客啦~</p></section>
+<section><h2>主题配置<a href="https://azusaaa.com/#%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span>#</span></a></h2><p>具体主题配置参考 <a href="https://butterfly.js.org/posts/21cfbf15/" target="_blank">Butterfly主题文档</a></p><p>以下是我个人使用的一些配置</p><section><h3>1. 固定链接（abbrlink）<a href="https://azusaaa.com/#1-%E5%9B%BA%E5%AE%9A%E9%93%BE%E6%8E%A5abbrlink"><span>#</span></a></h3><p>需下载 <a href="https://github.com/ohroy/hexo-abbrlink" target="_blank">hexo-abbrlink</a> 插件（或者其他类似插件）：</p><div><figure><figcaption><span></span><span>Terminal window</span></figcaption><pre><code><div><div><div>1</div></div><div><span>npm</span><span> </span><span>install</span><span> </span><span>hexo-abbrlink</span><span> </span><span>--save</span></div></div></code></pre><div><div></div><div></div></div></figure></div><p>然后修改配置文件 <code>_config.yml</code></p><p>主要是文章链接不固定会影响下面的评论记录功能</p><p>每次生成博客时会为文章生成一个固定链接（参考本文链接）</p></section><section><h3>2. 评论系统<a href="https://azusaaa.com/#2-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F"><span>#</span></a></h3><p>Butterfly主题支持多种评论系统，并支持双评论系统，我采用的是 <a href="https://twikoo.js.org/" target="_blank">Twikoo</a>，免费，有后台，并支持邮箱/微信提醒。</p><p>同样可以参考 <a href="https://twikoo.js.org/quick-start.html" target="_blank">相应文档</a> 以及 <a href="https://www.bilibili.com/video/BV1Fh411e7ZH" target="_blank">视频教程</a> 进行部署</p><ul>
+<li>
+<p>参考 <a href="https://twikoo.js.org/mongodb-atlas.html" target="_blank">这页</a> 申请 <a href="https://www.mongodb.com/cloud/atlas/register" target="_blank">MongoDB</a> 账号并获得 连接字符串</p>
+</li>
+<li>
+<p>由于了解到 <a href="https://vercel.com/" target="_blank">Vercel</a> 在国内访问较慢（但如果绑自己域名会快一些），并且腾讯云额度有限，于是接下来采用 <a href="https://www.netlify.com/" target="_blank">Netlify</a> 部署后端</p>
+<div><div><div></div><div>Warning</div></div><div><p>注意 Netlify 在国内一些省份的某些运营商网络环境下访问速度较慢，需自行更换网络环境</p></div></div>
+<ul>
+<li>
+<p>首先申请并登录 Netlify</p>
+</li>
+<li>
+<p>把 <a href="https://github.com/twikoojs/twikoo-netlify" target="_blank">这个仓库</a> fork 到自己的仓库下</p>
+</li>
+<li>
+<p>在 Netlify 中依次选择 <code>Add new project</code>、<code>Import an existing project</code>，选择 Github 中自己刚 fork 的仓库</p>
+</li>
+<li>
+<p>找到环境变量 <code>environment variables</code>，<code>Key</code> 填 <code>MONGODB_URI</code>，<code>Value</code> 填刚刚获得的 MongoDB 连接字符串，点击 <code>Deploy twikoo-netlify</code> 进行部署</p>
+</li>
+<li>
+<p>可以绑自己的域名，如果不绑，那么一个形如 <code>https://xxx.netlify.app/.netlify/functions/twikoo</code> 的字符串即是你的环境id，其中 <code>xxx</code> 替换为你的 project 名</p>
+</li>
+<li>
+<p>修改 <code>_config.butterfly.yml</code>：</p>
+<div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>comments</span><span>:</span></div></div><div><div><div>2</div></div><div><span>use</span><span>: </span><span>twikoo</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+<p>以及</p>
+<div><figure><figcaption></figcaption><pre><code><div><div><div>1</div></div><div><span>twikoo</span><span>:</span></div></div><div><div><div>2</div></div><div><span>envId</span><span>: </span><span>https://xxx.netlify.app/.netlify/functions/twikoo</span></div></div></code></pre><div><div></div><div></div></div></figure></div>
+</li>
+</ul>
+</li>
+<li>
+<p>此时，再执行一次 <code>hexo g -d</code> 等待一会后刷新页面，即可看到你的评论系统啦~</p>
+</li>
+</ul></section></section>]]></content>
     </entry>
 </feed>
