@@ -1,0 +1,1 @@
+function o(n,e){const t=n.closest("[data-comment-panel]");return t?.addEventListener("firefly:comments:activate",e),t?.hidden||e(),()=>t?.removeEventListener("firefly:comments:activate",e)}export{o as t};
