@@ -3,11 +3,25 @@
   <id>https://azusaaa.com/</id>
   <title type="text">azusaaa</title>
   <subtitle type="text">一些乱七八糟的笔记</subtitle>
-  <updated>2026-10-19T10:08:49.000Z</updated>
+  <updated>2026-11-05T00:00:00.000Z</updated>
   <author><name>dsyfb_437</name></author>
   <link rel="alternate" href="https://azusaaa.com/"/>
   <link rel="self" href="https://azusaaa.com/atom.xml"/>
   <generator uri="https://github.com/CuteLeaf/Firefly">Firefly v6.16.8</generator>
+    <entry>
+      <id>https://azusaaa.com/posts/2026-icpc-nanjing/</id>
+      <title type="text">2026 ICPC 南京 游记</title>
+      <published>2026-11-05T00:00:00.000Z</published>
+      <updated>2026-11-05T00:00:00.000Z</updated>
+      <author><name>dsyfb_437</name></author>
+      <link rel="alternate" href="https://azusaaa.com/posts/2026-icpc-nanjing/"/>
+      <summary type="text">第一次icpc qwq</summary>
+      <content type="html"><![CDATA[<p>提前开了新坑</p>
+
+https://www.bilibili.com/video/BV1NcuUzJESu/
+<blockquote><p>末班车旁只剩一人</p><p>霓虹残影亦由我陪等</p></blockquote>
+<section><h2>Day -1<a href="https://azusaaa.com/#day--1"><span>#</span></a></h2><p>南京夜无电波讯号</p></section>]]></content>
+    </entry>
     <entry>
       <id>https://azusaaa.com/posts/2026-ccpc-changchun/</id>
       <title type="text">2026 CCPC 长春 游记</title>
