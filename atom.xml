@@ -50,9 +50,9 @@
 </div></div><div><div><div>88</div></div><div><span>    </span><span>int</span><span> </span><span>t</span><span>;</span></div></div><div><div><div>89</div></div><div><span>    </span><span>cin</span><span> </span><span>&gt;&gt;</span><span> </span><span>t</span><span>;</span></div></div><div><div><div>90</div></div><div><span>    </span><span>while</span><span> (</span><span>t</span><span>--</span><span>)</span></div></div><div><div><div>91</div></div><div><span>        </span><span>solve</span><span>();</span></div></div><div><div><div>92</div></div><div><span>}</span></div></div></code></pre><div><div></div><div></div></div></figure><div></div></div><span>展开</span><span>收起</span></div></div>
 <p><a href="https://codeforces.com/blog/entry/158823" target="_blank">官方题解</a></p>
 <hr />
-<p>学习一下根号分治，核心是根据不同的数据规模选择不同的处理方式，使得每一类操作的总成本都可接受
-小的情况直接暴力，大的情况则考虑数量少、出现次数少，或者专门预处理
-先开个坑，</p>
+<p>学习一下根号分治，核心是根据不同的数据规模选择不同的处理方式，使得每一类操作的总成本都可接受</p>
+<p>小的情况直接暴力，大的情况则考虑数量少、出现次数少，或者专门预处理</p>
+<p>先开个坑，</p>
 <p>咕咕咕</p>]]></content>
     </entry>
     <entry>
